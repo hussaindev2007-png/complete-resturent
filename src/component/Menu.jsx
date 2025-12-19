@@ -51,6 +51,8 @@ export default function Menu() {
     setEditId(null);
     setTitle("");
     setImage("");
+    setPrice();
+    setRating();
     setShowModal(true);
   };
 
@@ -212,3 +214,4 @@ export default function Menu() {
     </div>
   );
 }
+
